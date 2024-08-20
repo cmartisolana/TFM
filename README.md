@@ -6,5 +6,16 @@ The aim of this work is to improve the SSS satellite observations ressolution us
 The particle tracking simulation is done using OceanParcels whose installation manual can be found here: https://docs.oceanparcels.org/en/latest/installation.html
 ## Repository structure
 ### `codes`
-Folder with all the python scripts and Jupyter notebooks used in the project. For each in-situ dataset there is a folder containing the 
-
+Folder with all the python scripts and Jupyter notebooks used in the project. For each in-situ dataset there is a folder containing all the python scripts and jupyter notebooks used for the reconstruction.
+### `data`
+All datasets used in the project organized as follows:
+- `insitu_data`: in-situ datasets from thermosalinograph.
+- `SSS_data`: SSS map products
+- `velocity_data`: geostrophic currents derived from altimetry
+### `outputs`
+Outputs from scripts. For each in-situ dataset there is:
+- `sim`: particle coordinates after the backward advection (.zarr format)
+- `sim_tagged`: maps with advected SSS
+- `sim_interpolation`: interpolated advected SSS at the coordinates of in-situ data
+- `SMOS_interpolation`: interpolated SMOS SSS at the coordinates of in-situ data
+### `plots`
