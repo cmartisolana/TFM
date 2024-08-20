@@ -6,7 +6,7 @@ The aim of this work is to improve the SSS satellite observations ressolution us
 The particle tracking simulation is done using OceanParcels whose installation manual can be found here: https://docs.oceanparcels.org/en/latest/installation.html
 ## Repository structure
 ### `codes`
-Folder with all the python scripts and Jupyter notebooks used in the project. For each in-situ dataset there is a folder containing all the python scripts and jupyter notebooks used for the reconstruction.
+Folder with python scripts and Jupyter notebooks used in the project. 
 ### `data`
 All datasets used in the project organized as follows:
 - `insitu_data`: in-situ datasets from thermosalinograph.
