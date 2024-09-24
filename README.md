@@ -13,10 +13,12 @@ All datasets used in the project organized as follows:
 - `SSS_data`: SSS map products
 - `velocity_data`: geostrophic currents derived from altimetry
 ### `outputs`
-Outputs from scripts.
+Outputs from scripts (not loaded)
 - `sim`: particle coordinates after the backward advection (.zarr format)
 - `sim_tagged`: maps with advected SSS
 - `sim_interpolation`: interpolated advected SSS at the coordinates of in-situ data
 - `SMOS_interpolation`: interpolated SMOS SSS at the coordinates of in-situ data
 ### `plots`
+- `sim`/`tag_sss`: maps of SMOS SSS and reconstructed SSS at $t_f-n$ and $t_f$
+- `SSS_comparison`: comparison with thermosalinograph data
 
